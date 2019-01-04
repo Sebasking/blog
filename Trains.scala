@@ -1,6 +1,6 @@
 package train {
   abstract class Train {
-    def travel
+    def travel: Unit
   }
 
   class BMT extends Train {
